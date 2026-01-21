@@ -40,7 +40,7 @@ The system runs on a high-efficiency command line interface (CLI). Below are the
 
 | **5. Therapy & Lab Evaluation** | **6. Audit Log (Deleted Data)** |
 | :---: | :---: |
-| ![Terapi 1](screenshots/terapi 1.png) ![Terapi 2](screenshots/terapi 2.png)| ![Hapus](screenshots/hapus.png) |
+| ![Terapi_1](screenshots/terapi_1.png) ![Terapi_2](screenshots/terapi_2.png)| ![Hapus](screenshots/hapus.png) |
 | *Logic evaluation for Viral Load & Adherence.* | *History of removed patients for data audit.* |
 
 ## Technical Architecture
@@ -54,3 +54,4 @@ HIVCare-Plus/
 ├── data/           # CSV database storage
 ├── screenshots/    # Documentation images
 └── Makefile        # Automated build script
+
