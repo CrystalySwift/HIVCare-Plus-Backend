@@ -4,9 +4,9 @@
 ![Architecture](https://img.shields.io/badge/Architecture-Modular%20Backend-red)
 ![Focus](https://img.shields.io/badge/Domain-Healthcare%20Informatics-green)
 
-**HIVCare+** is a robust backend system designed to manage patient records and monitor Anti-Retroviral Therapy (ART) adherence efficiently. Built to eliminate database latency issues, it utilizes **low-level memory management (Structs/Pointers)** and **custom CSV parsing** to handle complex clinical logic for HIV/AIDS care.
+**HIVCare+** is a C-language backend system designed to manage patient records and monitor anti-retroviral therapy (ART) adherence efficiently. Built to eliminate database latency issues, it utilizes **low-level memory management (Structs/Pointers)** and **custom CSV parsing** to handle complex clinical logic for HIV/AIDS care.
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Automated Clinical Decision Support
 The system implements strict medical protocols based on National Guidelines to evaluate treatment success:
@@ -24,9 +24,9 @@ Calculates a precise adherence percentage based on a multi-vector scoring system
 * **Custom CSV Parser:** Implemented a manual CSV parser and writer in C to handle data persistence directly, removing the need for heavy SQL dependencies.
 * **Memory Optimization:** Uses optimized data structures to map complex patient demographics, clinical history, and lab results into memory for instant retrieval.
 
-## 📸 Application Interface (CLI)
+## Application Interface
 
-The system runs on a high-efficiency Command Line Interface (CLI). Below are the snapshots of the core modules:
+The system runs on a high-efficiency command line interface (CLI). Below are the snapshots of the core modules:
 
 | **1. Main Menu Dashboard** | **2. Add New Patient** |
 | :---: | :---: |
@@ -40,10 +40,10 @@ The system runs on a high-efficiency Command Line Interface (CLI). Below are the
 
 | **5. Therapy & Lab Evaluation** | **6. Audit Log (Deleted Data)** |
 | :---: | :---: |
-| ![Terapi](screenshots/terapi.png) | ![Hapus](screenshots/hapus.png) |
+| ![Terapi 1](screenshots/terapi 1.png) ![Terapi 2](screenshots/terapi 2.png)| ![Hapus](screenshots/hapus.png) |
 | *Logic evaluation for Viral Load & Adherence.* | *History of removed patients for data audit.* |
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ### Directory Structure
 The project follows a modular C engineering structure:
@@ -51,6 +51,6 @@ The project follows a modular C engineering structure:
 HIVCare-Plus/
 ├── src/            # Source code (.c files) implementation
 ├── include/        # Header files (.h) definitions
-├── data/           # CSV Database storage
+├── data/           # CSV database storage
 ├── screenshots/    # Documentation images
 └── Makefile        # Automated build script
